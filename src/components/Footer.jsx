@@ -11,9 +11,10 @@ const Footer = () => {
 		<footer>
 			<div className="container footer__container">
 				<article>
-					<Link to="/" className="logo">
-						<img src={Logo} alt="Footer Logo" />
-					</Link>
+// 					<Link to="/" className="logo">
+// 						<img src={Logo} alt="Footer Logo" />
+// 					</Link>
+					<h1>Baahubali</h1>
 					<p>
 						Consectetur non nostrud enim nostrud est culpa ullamco incididunt
 						nisi. Consectetur non nostrud enim nostrud est culpa ullamco
@@ -73,7 +74,7 @@ const Footer = () => {
 				</article>
 			</div>
 			<div className="footer__copyright">
-				<small> &copy; Eniola Ademola </small>
+				<small> &copy; Kundan kumar </small>
 			</div>
 		</footer>
 	);
