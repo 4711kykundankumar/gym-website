@@ -21,9 +21,10 @@ const Navbar = () => {
 	return (
 		<nav>
 			<div className="container nav__container">
-				<Link to="/" className="logo" onClick={handleNavToggle}>
-					<img src={Logo} alt="Nav-logo" />
-				</Link>
+// 				<Link to="/" className="logo" onClick={handleNavToggle}>
+// 					<img src={Logo} alt="Nav-logo" />
+// 				</Link>
+				<h1>Baahubali</h1>
 				<ul
 					className={`nav__links ${isNavShowing ? "show__nav" : "hide__nav"}`}
 				>
